@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    /* background-image: linear-gradient(#FFC057, #EA5959); */
+    background-image: url(../img/sb-bg.jpg);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    /* background-size: cover; */
+    background-size: 100% 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+
+.statistic {
+    margin-top: 1.4rem;
+    line-height: 2rem;
+    width: 80%;
+    display: flex;
+}
+
+.statistic h2 {
+    color: rgb(107, 114, 128);
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.statistic-container {
+    margin-top: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 4fr));
+    gap: 1.25rem;
+    width: 100%;
+}
+
+.statistic-box {
+    background-image: linear-gradient(#FFD369, #F88020);
+    /* opacity: 30%; */
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+
+.statistic-box ul li {
+    color: rgb(107, 114, 128);
+    font-size: 0.75rem;
+    line-height: 2.25rem;
+    font-weight: 500;
+}
+
+.statistic-box .number {
+    color: rgb(17, 24, 39);
+    font-size: 1.8rem;
+    line-height: 2.25rem;
+}
+
+.btn-a {
+    background: #FFCE45;
+    color: #203239;
+    border: none;
+    padding: 0.8rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    margin-left: 0.4rem;
+    float: right;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px black;
+}
+.btn-a:hover,
+.btn-nama:hover{
+    background: #911F27;
+    color: white;
+}
+
+.btn-nama {
+    background: #FFCA03;
+    color: #203239;
+    border: none;
+    padding: 0.8rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    margin-left: 0.4rem;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px black;
+}
+
+.h2-center {
+    text-transform: center;
+}
+
+p span {
+    float: right;
+}
+
+label span {
+    color: black;
+    float: right;
+    padding-right: 50px;
+}
+
+
+input[type=text] {
+    background-color: #FFD369;
+    color: black;
+    width: 50%;
+    padding: 5px 9px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+input[type=text]:hover{
+    background-color: #F88020;
+}
+
+.h2Style h2 {
+    font-size: 26px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.judul h1 {
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.statistic-box label {
+    font-weight: bold;
+}
+
+.pesanan {
+    text-align: center;
+}
+ul li {
+    list-style: none;
+}
+
+.formLabel {
+    font-size: 22px;
+    color: rgb(17, 0, 0);
+    font-weight: 700;
+}
+
+.lblStyle {
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.container2 {
+    margin-top: 1.4rem;
+    line-height: 2rem;
+    width: 80%;
+}
+
+.toping {
+    list-style: none;
+    background: #FFCA03;
+    color: #203239;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    margin-left: 0.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    width: 50%;
+    margin: 25px auto;
+}
+
+.harga h2{
+    text-align: center;
+    margin-bottom: 30px;
+    background: #911F27;
+    color: white;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    margin-left: 0.4rem;
+    font-weight: bold;
+}
+
+.final-pesanan h2{
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.final-pesanan #lucky-diskon {
+    margin-bottom: 50px;
+}
+
+#final-price {
+    background: #911F27;
+    color: white;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    margin-left: 0.4rem;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+

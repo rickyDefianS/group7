@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Seblak Hacktiv9</title>
+    </head>
+    
+    <body>
+        <div class="container">
+
+            <div class="judul">
+                <a href="index.html"><h1> SEBLAK HACKTIV9</h1></a>
+            </div>
+
+            <div class="statistic" id="page1">
+
+                <div class="statistic-container">
+
+                    <div class="">
+
+                        <div class="h2Style">
+                            <h2>Toping</h2>
+                        </div>
+                        
+                        <div class="statistic-box">  
+                            <input type="checkbox" name="menu" id="kerupuk"> 
+                            <label for="">Kerupuk <span>1000</span></label><br>
+                            <input type="checkbox" name="menu" id="makaroni">
+                            <label for="">Makaroni <span>1000</span><br></label>
+                            <input type="checkbox" name="menu" id="mie">
+                            <label for="">Mie <span>1000</span><br></label>
+                            <input type="checkbox" name="menu" id="kwetiau">
+                            <label for="">Kwetiau <span>1000</span><br></label>
+                            <input type="checkbox" name="menu" id="baso">
+                            <label for="">Baso <span>2000</span><br></label>
+                            <input type="checkbox" name="menu" id="sosis">
+                            <label for="">Sosis <span>2000</span><br></label>
+                            <input type="checkbox" name="menu" id="batagor">
+                            <label for="">Batagor Kering <span>1500</span><br></label>
+                            <input type="checkbox" name="menu" id="ceker">
+                            <label for="">Ceker <span>3000</span><br></label>
+                            <input type="checkbox" name="menu" id="sayur">
+                            <label for="">Sayur <span>1500</span><br></label>
+                            <input type="checkbox" name="menu" id="telor">
+                            <label for="">Telor <span>3000</span><br></label>
+                        </div>
+
+                    </div>
+
+                    <div class="">
+
+                        <div class="h2Style">
+                            <h2>Level Pedas</h2>
+                        </div>
+
+                        <div class="statistic-box">    
+                            <form>         
+                                <input type="radio" name="pedas" onclick="myFunction(value)" value="0">
+                                <label for="">0<br></label>
+                                <input type="radio" name="pedas" onclick="myFunction(value)" value="1">
+                                <label for="">1<br></label>
+                                <input type="radio" name="pedas" onclick="myFunction(value)" value="2">
+                                <label for="">2<br></label>
+                                <input type="radio" name="pedas" onclick="myFunction(value)" value="3">
+                                <label for="">3<br></label>    
+                            </form>
+                        </div>
+
+                        <div style="margin-top: 20px;">
+                            <form>
+                                <label class="lblStyle" for="name">Nama:</label><br>
+                                <input type="text" id="name" name="name" onchange="inputNama()"/>
+                            </form>
+                        </div>
+
+                        <div>
+                            <a class="btn-a" type="button" id="to-page2" onclick="page2()">NEXT</a>
+                            <!-- <a class="btn-a" href="2.html">submit</a> -->
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="page2" class="container2" style="display: none;">
+               <div>
+                  <div class="statistic-box" style="padding: 20px">
+
+                     <div class="pesanan">
+                        <h2 id="title-pesanan">CHECKOUT</h2>
+                     </div>
+                     
+                     <div class="lucky">
+                              
+                     </div>
+                     
+                     <div class="harga">
+                        <h2 id="jumlah-harga"></h2>
+                     </div>
+
+                     <div class="return" style="display: flex;">
+                        <a class="btn-nama" style="margin-right: 40px;" type="button" id="to-page1" onclick="page1()">UBAH PESANAN</a>
+                        <a class="btn-nama" type="button" id="to-page3" onclick="page3()">Checkout</a>
+                     </div>         
+                     <div class="'final">
+                     </div>      
+                     
+                  </div>
+               </div>
+            </div>
+
+            <div id="page3" class="contaner2" style="display: none">
+                <div>
+                    <div class="statistic-box" style="padding: 20px; margin-top: 80px;">
+                        <div class="final-pesanan">
+                            <h2 id="lucky-diskon"></h2>
+                            <h2 id="final-price"></h2>
+                            <h2 id="thankyou"></h2>
+                        </div>     
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
